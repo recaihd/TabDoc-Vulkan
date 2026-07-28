@@ -9,6 +9,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// Servir arquivos estáticos do frontend (index.html, style.css, app.js, assets)
+app.use(express.static(path.join(__dirname, '../frontend')));
+
 const gpusPath = path.join(__dirname, 'data', 'gpus.json');
 
 function loadGpus() {
