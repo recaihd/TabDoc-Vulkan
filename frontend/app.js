@@ -9,7 +9,7 @@ const resultTitle = document.getElementById('result-title');
 const resultMessage = document.getElementById('result-message');
 
 let allGpus = [];
-
+// teste
 async function loadGpuOptions() {
     try {
         const response = await fetch(`${API_URL}/gpus`);
