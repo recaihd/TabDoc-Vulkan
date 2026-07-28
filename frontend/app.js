@@ -1,4 +1,4 @@
-const API_URL = 'https://seu-backend.koyeb.app/api';
+const API_URL = 'https://tabdoc-vulkan.onrender.com/api';
 
 const form = document.getElementById('checker-form');
 const gpuInput = document.getElementById('gpu');
